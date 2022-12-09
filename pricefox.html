@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PriceFox (Flexbox)</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+          body{
+            width: 100%;
+          }
+          main{
+            display: flex;
+            width: inherit;
+            flex-direction: column;
+          }
+          .header{
+            display: flex;
+            width: inherit;
+            background-color: #fff;
+            position: sticky;
+            color: black;
+            height: 94px;
+            justify-content: space-between;
+          }
+          .menu-elements{
+            display:flex;
+            align-items: center;
+            font-family: sans-serif;
+            font-size: 15px;
+            color: #012e4b;
+            padding-right: 150px;
+          }
+          .main-nav{
+            padding-right: 20px;
+            padding-bottom: 38px;
+            padding-top: 38px;
+            position: relative;
+            display: inline-block;
+          }
+          .main-nav::before{
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 6px;
+            background-color: #f26e22;
+            transition: width 0.55s ease-out;
+          }
+          .main-nav:hover::before{
+            width: 78%;
+          }
+          .number-phone-box{
+            display: flex;
+            background: #fff;
+            box-shadow: 0 0 29px rgb(0 0 0 / 13%);
+            border-radius: 5px;
+          }
+          .number-phone{
+            padding: 15px;
+            font-size: 11px;
+            color: #012e4b;
+          }
+          #img-phone{
+            padding: 10px;
+            width: 25px;
+            height: 25px;
+          }
+          .logo{
+            display: flex;
+            align-items: center;
+            padding-left: 130px;
+            color: #012e4b;
+          }
+          #img-logo{
+             height: 50px;
+             width: 181px;
+          }
+          .main-body{
+            width: inherit;
+            height: 976px;
+            border-top: 1px solid gray;
+            border-right: 1px solid gray;
+            border-left: 1px solid gray;
+            border-bottom: 1px solid gray;
+          }
+
+
+        </style>
+    </head>
+    <body>
+      <main>
+        <div class= "header">
+          <div class= "logo">
+            <img id= "img-logo"src="images/logo.webp"/>
+          </div>
+          <div class= "menu-elements">
+              <div class= "main-nav">Buy Online</div>
+              <div class= "main-nav">About us</div>
+              <div class= "main-nav">Blog</div>
+              <div class= "number-phone-box">
+                <img id= "img-phone" src="images/orange-phone.webp"/>
+                <div class="number-phone">210 3000 450</div>
+              </div>
+         </div>
+        </div>
+        <div class= "main-body">
+        </div>
+      </main>
+    </body>
+</html>
