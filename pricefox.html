@@ -8,7 +8,7 @@
             margin: 0;
             height: 100%;
           }
-          main{
+          .container{
             display: flex;
             width: inherit;
             flex-direction: column;
@@ -61,7 +61,7 @@
             font-size: 11px;
             color: #012e4b;
           }
-          #img-phone{
+          .img-phone{
             padding: 10px;
             width: 25px;
             height: 25px;
@@ -72,11 +72,11 @@
             padding-left: 110px;
             color: #012e4b;
           }
-          #img-logo{
+          .img-logo{
              height: 45px;
              width: 150px;
           }
-          .main-body{
+          main{
             display: flex;
             align-items: center;
             padding-left: 200px;
@@ -145,7 +145,7 @@
             font-size: 11px;
             align-items: center;
           }
-          #img-eur-flag{
+          .img-eur-flag{
             width: 28px;
             height: 28px;
             padding-right: 15px;
@@ -200,7 +200,7 @@
             border-top: 1px solid #dbdbdd;
             padding-top: 20px;
           }
-          #img-left-arrow{
+          .img-left-arrow{
             width: 10px;
             height: 10px;
           }
@@ -218,19 +218,19 @@
             color: #626c71;
             font-size: 13px;
           }
-          #img-myzen{
+          .img-myzen{
             width: 107px;
             height: 60px;
           }
-          #img-anytime{
+          .img-anytime{
             width: 107px;
             height: 60px;
           }
-          #img-ACCREDITED{
+          .img-ACCREDITED{
             width: 107px;
             height: 60px;
           }
-          #img-APEIRON{
+          .img-APEIRON{
             width: 107px;
             height: 60px;
           }
@@ -246,7 +246,7 @@
             margin: 10px;
             padding: 8px;
           }
-          #companies23{
+          #companies23plus{
             padding-top: 20px;
             font-family: Helvetica,Arial,sans-serif;
             color: #012e4b;
@@ -266,93 +266,93 @@
         </style>
     </head>
     <body>
-      <main>
-        <div class= "header">
-          <div class= "logo">
-            <img id= "img-logo"src="images/logo.webp"/>
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <img class="img-logo"src="images/logo.webp"/>
           </div>
-          <div class= "menu-elements">
-              <div class= "main-nav">Buy Online</div>
-              <div class= "main-nav">About us</div>
-              <div class= "main-nav">Blog</div>
-              <div class= "number-phone-box">
-                <img id= "img-phone" src="images/orange-phone.webp"/>
+          <div class="menu-elements">
+              <div class="main-nav">Buy Online</div>
+              <div class="main-nav">About us</div>
+              <div class="main-nav">Blog</div>
+              <div class="number-phone-box">
+                <img class="img-phone" src="images/orange-phone.webp"/>
                 <div class="number-phone">210 3000 450</div>
               </div>
           </div>
         </div>
-        <div class= "main-body">
-          <div class= "compare-box">
-            <div class= "inside-compare-box">
-              <h1 class= "first-heading">The offers of the year on your car insurance.</h1>
-              <h3 class= "second-heading">Compare all the top insurance companies and buy in 2 minutes.</h3>
-              <div class= "vehicle-selection">
-                  <div class= "vehicle">Car</div>
-                  <div class= "vehicle">Machine</div>
-                  <div class= "vehicle">Rural</div>
-                  <div class= "vehicle">Truck</div>
+        <main>
+          <div class="compare-box">
+            <div class="inside-compare-box">
+              <h1 class="first-heading">The offers of the year on your car insurance.</h1>
+              <h3 class="second-heading">Compare all the top insurance companies and buy in 2 minutes.</h3>
+              <div class="vehicle-selection">
+                  <div class="vehicle">Car</div>
+                  <div class="vehicle">Machine</div>
+                  <div class="vehicle">Rural</div>
+                  <div class="vehicle">Truck</div>
               </div>
-              <div class= "line"></div>
-              <div class= "sign-compare-boxes">
-                <div class= "sign-box">
-                  <img id= "img-eur-flag" src="images/license-plate-gr.png"/>
+              <div class="line"></div>
+              <div class="sign-compare-boxes">
+                <div class="sign-box">
+                  <img class="img-eur-flag" src="images/license-plate-gr.png"/>
                   <p>Put your sign here</p>
                 </div>
-                <div class= "compare-now">
+                <div class="compare-now">
                   <p>Compare now</p>
                 </div>
               </div>
                 <p id="license-plate">Don't remember your license plate? Enter XXX1234 to see indicative offers.</p>
             </div>
           </div>
-        </div>
-        <div class= "footer">
-          <div class= "offers-box">
-            <div id= "heading">Don't miss the best offers on the market at Pricefox!</div>
-            <div class= "best-offers">
-              <img id= "img-left-arrow" src="images/arrow-left-blue.png"/>
-              <div id= "myzen">
-                <div class= "offers-boxes-styling">
-                  <img id= "img-myzen" src="images/myZen.webp"/>
-                  <div class= "discount">$35</div>
+        </main>
+        <div class="footer">
+          <div class="offers-box">
+            <div id="heading">Don't miss the best offers on the market at Pricefox!</div>
+            <div class="best-offers">
+              <img class="img-left-arrow" src="images/arrow-left-blue.png"/>
+              <div id="myzen">
+                <div class="offers-boxes-styling">
+                  <img class="img-myzen" src="images/myZen.webp"/>
+                  <div class="discount">$35</div>
                   <p>Fuel free up to 35 until 31/12</p>
                 </div>
               </div>
-              <div id= "anytime1">
-                <div class= "offers-boxes-styling">
-                  <img id= "img-anytime" src="images/anytime.webp"/>
-                  <div class= "discount">-40%</div>
+              <div id="anytime1">
+                <div class="offers-boxes-styling">
+                  <img class="img-anytime" src="images/anytime.webp"/>
+                  <div class="discount">-40%</div>
                   <p>in all anual contracts</p>
                 </div>
               </div>
-              <div id= "anytime2">
-                <div class= "offers-boxes-styling">
-                  <img id= "img-anytime" src="images/anytime.webp"/>
-                  <div class= "discount">-5%</div>
+              <div id="anytime2">
+                <div class="offers-boxes-styling">
+                  <img class="img-anytime" src="images/anytime.webp"/>
+                  <div class="discount">-5%</div>
                   <p>for COSMOTE
                   <br>customers
                   </p>
                 </div>
               </div>
-              <div id= "ACCREDITED">
-                <div class= "offers-boxes-styling">
-                  <img id= "img-ACCREDITED" src="images/accredited.webp"/>
-                  <div class= "discount">-30%</div>
+              <div id="ACCREDITED">
+                <div class="offers-boxes-styling">
+                  <img class="img-ACCREDITED" src="images/accredited.webp"/>
+                  <div class="discount">-30%</div>
                   <p>in all anual contracts</p>
                 </div>
               </div>
-              <div id= "APEIRON">
-                <div class= "offers-boxes-styling">
-                  <img id= "img-APEIRON" src="images/apeiron.webp"/>
-                  <div class= "discount">-30%</div>
+              <div id="APEIRON">
+                <div class="offers-boxes-styling">
+                  <img class="img-APEIRON" src="images/apeiron.webp"/>
+                  <div class="discount">-30%</div>
                   <p>for all provincial areas until 31/12</p>
                 </div>
               </div>
-              <img id= "img-left-arrow" src="images/arrow-right-blue.png"/>
+              <img class="img-left-arrow" src="images/arrow-right-blue.png"/>
             </div>
-            <p id= "companies23">Compare and buy car insurance from 23+ insurance companies</p>
+            <p id="companies23plus">Compare and buy car insurance from 23+ insurance companies</p>
           </div>
         </div>
-      </main>
+      </div>
     </body>
 </html>
