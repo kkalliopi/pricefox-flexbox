@@ -1,0 +1,277 @@
+body{
+  margin: 0;
+  height: 100%;
+  font-family: Helvetica,Arial,sans-serif;
+}
+.container{
+  display: flex;
+  width: inherit;
+  flex-direction: column;
+}
+.header{
+  display: flex;
+  width: inherit;
+  background-color: #fff;
+  position: sticky;
+  color: black;
+  height: 70px;
+  justify-content: space-between;
+}
+.menu-elements{
+  display:flex;
+  align-items: center;
+  font-size: 15px;
+  color: #012e4b;
+  padding-right: 110px;
+}
+.main-nav{
+  padding-right: 20px;
+  padding-bottom: 26px;
+  padding-top: 26px;
+  position: relative;
+  display: inline-block;
+}
+.main-nav::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 6px;
+  background-color: #f26e22;
+  transition: width 0.55s ease-out;
+}
+.main-nav:hover::before{
+  width: 78%;
+}
+.number-phone-box{
+  display: flex;
+  background: #fff;
+  box-shadow: 0 0 29px rgb(0 0 0 / 13%);
+  border-radius: 5px;
+}
+.number-phone{
+  padding: 15px;
+  font-size: 11px;
+  color: #012e4b;
+}
+.img-phone{
+  padding: 10px;
+  width: 25px;
+  height: 25px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  padding-left: 110px;
+  color: #012e4b;
+}
+.img-logo{
+   height: 45px;
+   width: 150px;
+}
+main{
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+  width: inherit;
+  height: 440px;
+  background-image: url("https://s3.eu-central-1.amazonaws.com/assets.pricefox.gr/greece/pricefox.gr/production/gr/images/ci/new-landing/mr-pricefox-black.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.compare-box{
+  width: 370px;
+  height: 310px;
+  background: white;
+  border-radius: 10px;
+}
+.inside-compare-box{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+.first-heading{
+  font-weight: 600;
+  font-size: 22px;
+  color: #012e4b;
+}
+.second-heading{
+  font-size: 11px;
+  color: #012e4b;
+}
+.vehicle-selection{
+  display: flex;
+  width: inherit;
+  height: 20px;
+  margin-top: 15px;
+  color: #626c71;
+  font-size: 13px;
+  align-items: center;
+}
+.vehicle{
+  margin-right: 35px;
+}
+
+.line{
+  border-top: 1px solid #dbdbdd;
+  margin-top: 13px;
+  margin-bottom: 25px;
+}
+.sign-compare-boxes{
+  display: flex;
+}
+.sign-box{
+  display: flex;
+  width: 180px;
+  background: #fff;
+  box-shadow: 0 0 29px rgb(0 0 0 / 13%);
+  border-radius: 5px;
+  padding: 6px;
+  color: #626c71;
+  font-size: 11px;
+  align-items: center;
+}
+.img-eur-flag{
+  width: 28px;
+  height: 28px;
+  padding-right: 15px;
+}
+.compare-now{
+  width: 140px;
+  background: #f26e22;
+  text-align: center;
+  padding: 3px;
+  font-size: 14px;
+  color: white;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+#license-plate{
+  color: #626c71;
+  font-size: 11px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  width: inherit;
+  height: 300px;
+}
+.offers-box{
+  display: flex;
+  flex-direction: column;
+  color: #012e4b;
+  text-align: center;
+  margin-top: -28px;
+  background: #fff;
+  border-radius: 10px;
+  width: 980px;
+  height:280px;
+  box-shadow: 0 0 29px rgb(0 0 0 / 13%);
+}
+#heading{
+  width: inherit;
+  color: #012e4b;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.best-offers{
+  width: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #dbdbdd;
+  padding-top: 20px;
+}
+.img-left-arrow{
+  width: 10px;
+  height: 10px;
+}
+.offers-boxes-styling{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  width: 120px;
+  height: 180px;
+  box-shadow: 0 0 29px rgb(0 0 0 / 13%);
+  color: #626c71;
+  font-size: 13px;
+}
+.img-myzen{
+  width: 107px;
+  height: 60px;
+}
+.img-anytime{
+  width: 107px;
+  height: 60px;
+}
+.img-ACCREDITED{
+  width: 107px;
+  height: 60px;
+}
+.img-APEIRON{
+  width: 107px;
+  height: 60px;
+}
+.discount{
+  background: #fff;
+  box-shadow: 0 0 29px rgb(0 0 0 / 13%);
+  border-radius: 5px;
+  width: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f26e22;
+  margin: 10px;
+  padding: 8px;
+}
+#companies23plus{
+  padding-top: 20px;
+  color: #012e4b;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (max-width: 992px){
+  body{
+
+    height: 100%;
+    margin: 0;
+  }
+  .container{
+    width: inherit;
+  }
+  .header{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+
+  }
+  .menu-elements{
+    display: none;
+  }
+  main{
+    display: flex;
+    justify-content: center;
+    background: none;
+
+  }
+  .compare-box{
+    box-shadow: 0 4px 50px rgb(0 0 0 / 10%);
+    width: 900px;
+
+
+
+}
+  }
+
+
+  }
