@@ -3,13 +3,16 @@ body{
   margin: 0;
   height: 100%;
   font-family: Helvetica,Arial,sans-serif;
+
 }
+
 .container{
   display: flex;
   width: inherit;
   flex-direction: column;
 }
-.header{
+
+header{
   display: flex;
   width: inherit;
   background-color: #fff;
@@ -17,8 +20,9 @@ body{
   color: black;
   height: 70px;
   justify-content: space-between;
-  align-items: center;s
+  align-items: center;
 }
+
 .menu-elements{
   display:flex;
   align-items: center;
@@ -26,6 +30,7 @@ body{
   color: #012e4b;
   padding-right: 110px;
 }
+
 .main-nav{
   padding-right: 20px;
   padding-bottom: 26px;
@@ -33,6 +38,7 @@ body{
   position: relative;
   display: inline-block;
 }
+
 .main-nav::before{
   content: "";
   position: absolute;
@@ -43,39 +49,48 @@ body{
   background-color: #f26e22;
   transition: width 0.55s ease-out;
 }
+
 .main-nav:hover::before{
   width: 78%;
 }
+
 .number-phone-box{
   display: flex;
   background: #fff;
   box-shadow: 0 0 29px rgb(0 0 0 / 13%);
   border-radius: 5px;
 }
+
 .number-phone{
   padding: 15px;
   font-size: 11px;
   color: #012e4b;
 }
+
 .img-phone{
   padding: 10px;
   width: 25px;
   height: 25px;
 }
+
 .mobile-menu-bar{
   display: none;
 }
+
 .mobile-header-phone{
   display: none;
 }
+
 .logo{
   padding-left: 110px;
   color: #012e4b;
 }
+
 .img-logo{
    height: 45px;
    width: 150px;
 }
+
 main{
   display: flex;
   align-items: center;
@@ -86,32 +101,34 @@ main{
   background-position: center;
   background-size: cover;
 }
+
 .compare-box{
   width: 370px;
-  height: 310px;
-  background: white;
+  height: 300px;
+  background: #fff;
   border-radius: 10px;
-}
-.inside-compare-box{
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 15px;
+  padding: 20px 20px 20px 20px;
+ 
 }
+
+
 .first-heading{
   font-weight: 600;
   font-size: 22px;
   color: #012e4b;
 }
+
 .second-heading{
   font-size: 11px;
   color: #012e4b;
 }
+
 .circle-img-vehicle{
   display: none;
 }
+
 .vehicle-selection{
   display: flex;
   width: inherit;
@@ -128,9 +145,11 @@ main{
   margin-top: 13px;
   margin-bottom: 25px;
 }
+
 .sign-compare-boxes{
   display: flex;
 }
+
 .sign-box{
   display: flex;
   width: 180px;
@@ -142,14 +161,17 @@ main{
   font-size: 11px;
   align-items: center;
 }
+
 .img-eur-flag{
   width: 28px;
   height: 28px;
   padding-right: 15px;
 }
+
 .sign-box-mobile{
   display: none;
 }
+
 .compare-now{
   width: 140px;
   background: #f26e22;
@@ -160,19 +182,23 @@ main{
   border-radius: 5px;
   margin-left: 10px;
 }
+
 .compare-now-mobile{
   display: none;
 }
+
 #license-plate{
   color: #626c71;
   font-size: 11px;
 }
-.footer{
+
+footer{
   display: flex;
   justify-content: center;
   width: inherit;
   height: 300px;
 }
+
 .offers-box{
   display: flex;
   flex-direction: column;
@@ -185,6 +211,7 @@ main{
   height:280px;
   box-shadow: 0 0 29px rgb(0 0 0 / 13%);
 }
+
 #heading-dont-miss{
   width: inherit;
   color: #012e4b;
@@ -192,6 +219,7 @@ main{
   font-size: 18px;
   font-weight: bold;
 }
+
 .best-offers{
   width: inherit;
   display: flex;
@@ -200,10 +228,12 @@ main{
   border-top: 1px solid #dbdbdd;
   padding-top: 20px;
 }
-.img-left-arrow{
+
+.img-arrow{
   width: 10px;
   height: 10px;
 }
+
 .offers-boxes-styling{
   display: flex;
   flex-direction: column;
@@ -218,26 +248,13 @@ main{
   color: #626c71;
   font-size: 13px;
 }
-.img-myzen{
+
+.img-companies{
   width: 107px;
   height: 60px;
 }
-.img-anytime1{
-  width: 107px;
-  height: 60px;
-}
-.img-anytime2{
-  width: 107px;
-  height: 60px;
-}
-.img-ACCREDITED{
-  width: 107px;
-  height: 60px;
-}
-.img-APEIRON{
-  width: 107px;
-  height: 60px;
-}
+
+
 .discount{
   background: #fff;
   box-shadow: 0 0 29px rgb(0 0 0 / 13%);
@@ -249,6 +266,7 @@ main{
   margin: 10px;
   padding: 8px;
 }
+
 .companies23plus{
   padding-top: 50px;
   color: #012e4b;
@@ -262,12 +280,14 @@ main{
     height: 100%;
     margin: 0;
   }
+
   .container{
     display: flex;
     width: inherit;
     flex-direction: column;
   }
-  .header{
+
+  header{
     display: flex;
     width: inherit;
     position: sticky;
@@ -279,18 +299,23 @@ main{
     padding-left: 15px;
     padding-right: 15px;
   }
+
   .logo{
     padding: 0;
   }
+
   .mobile-menu-bar{
     display: contents;
   }
+
   .mobile-header-phone{
     display: contents;
   }
+
   .menu-elements{
     display: none;
   }
+
   main{
     width:inherit;
     justify-content: center;
@@ -299,6 +324,7 @@ main{
     margin-bottom:60px;
     height: 480px;
   }
+
   .compare-box{
     width: inherit;
     height: 420px;
@@ -306,15 +332,15 @@ main{
     margin-right: 20px;
     margin-left: 20px;
   }
+
   .inside-compare-box{
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px 20px 20px 20px;
   }
+
   .first-heading{
     font-size: 26px;
   }
+
   .circle-img-vehicle{
     display: flex;
     width: inherit;
@@ -324,9 +350,11 @@ main{
     font-size: 13px;
     justify-content: space-around;
   }
+
   .vehicle{
     margin: none;
   }
+
   .vehicle-selection{
     display: flex;
     width: 100%;
@@ -337,16 +365,20 @@ main{
     justify-content: space-around;
     margin-bottom: 20px;
   }
+
   .line{
     display: none;
   }
+
   .sign-box{
     width: 100%;
     font-size: 15px;
   }
+
   .sign-compare-boxes{
     display: none;
   }
+
   .sign-box-mobile{
     display:flex;
     width: 100%;
@@ -358,6 +390,7 @@ main{
     font-size: 14px;
     align-items: center;
   }
+
   .compare-now-mobile{
     display:flex;
     width: 100%;
@@ -369,10 +402,12 @@ main{
     border-radius: 5px;
     margin-top: 10px
   }
-  .footer{
+
+  footer{
     width:inherit;
     height: 350px;
   }
+
   .offers-box{
     justify-content: center;
     width: inherit;
@@ -380,6 +415,7 @@ main{
     margin-top: none;
     padding-bottom: 10px;
   }
+
   #heading-dont-miss{
     width: inherit;
     color: #012e4b;
@@ -387,6 +423,7 @@ main{
     font-size: 19px;
     font-weight: bold;
   }
+
   .best-offers{
     width: inherit;
     padding-top: 20px;
@@ -394,29 +431,33 @@ main{
     padding-right: 8px;
     border-top: none;
   }
+
   .offers-boxes-styling{
     padding: 5px;
     width: 135px;
     height: 180px;
     font-size: 11px;
   }
+
   #anytime2{
     display: none;
   }
+
   #ACCREDITED{
     display: none;
   }
+
   #APEIRON{
     display: none;
   }
-  .img-myzen{
+
+  .img-companies{
     width: 90px;
     height: 51px;
   }
-  .img-anytime1{
-    width: 90px;
-    height: 51px;
-  }
+
+  
+
   .companies23plus{
     display: none;
   }
